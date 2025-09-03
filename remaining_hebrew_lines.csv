@@ -1,0 +1,221 @@
+file,line,text
+src/StudentApp.tsx,53,"name: 'יוסף כהן',"
+src/StudentApp.tsx,60,"name: 'מרים לוי',"
+src/StudentApp.tsx,67,"name: 'אחמד עלי',"
+src/StudentApp.tsx,77,"title: 'Trip לירושלים',"
+src/StudentApp.tsx,78,"description: 'Trip מודרך בעיר העתיקה והכותל המערבי. כולל ארוחת צהריים ומדריך מקצועי.',"
+src/StudentApp.tsx,80,"location: 'Jerusalem - עיר עתיקה',"
+src/StudentApp.tsx,89,"title: 'סיור במוזיאון הטבע',"
+src/StudentApp.tsx,90,"description: 'סיור מודרך במוזיאון הטבע העברי עם הרצאה מיוחדת על החי והצומח בישראל.',"
+src/StudentApp.tsx,92,"location: 'תל אביב - מוזיאון הטבע',"
+src/StudentApp.tsx,100,"title: 'Trip לחיפה והכרמל',"
+src/StudentApp.tsx,101,"description: 'יום של חקר Haifa: הגנים הבהאיים, נמל Haifa ונקודות תצפית על the Carmel.',"
+src/StudentApp.tsx,103,"location: 'Haifa - הגנים הבהאיים',"
+src/StudentApp.tsx,113,"description: 'למדו להכין Falafel ביתי אותנטי עם שף מקצועי. כולל ארוחה וחומרי גלם.',"
+src/StudentApp.tsx,115,"location: 'Center Community הדר',"
+src/StudentApp.tsx,135,"title: 'Trip לירושלים Approved',"
+src/StudentApp.tsx,136,"message: 'הרשמתך לטיול לירושלים אושרה. הטיול יתקיים ב-15/12/2024 בTime 09:00',"
+src/StudentApp.tsx,144,"message: 'יש לך חיוב פתוח של 150 ש""ח עבור אי הגעה לסיור במוזיאון הטבע',"
+src/StudentApp.tsx,152,"message: 'נפתח Trip חדש לחיפה והכרמל. Limited seats - Register now!',"
+src/StudentApp.tsx,202,toast.success(`נרשמת בהצלחה ל-${event.title}`);
+src/StudentApp.tsx,208,"message: `נרשמת בהצלחה ל-${event.title}. Pending לConfirm המחלקה.`,"
+src/StudentApp.tsx,225,toast.error('לא ניתן לבטל פחות מיומיים לפני הטיול. תחויב במלוא הסכום.');
+src/StudentApp.tsx,236,toast.success(`הרשמתך ל-${event.title} בוטלה בהצלחה`);
+src/StudentApp.tsx,309,Pending לConfirm
+src/StudentApp.tsx,330,Enter למערכת
+src/StudentApp.tsx,342,"<SelectValue placeholder=""Select את שמך"" />"
+src/StudentApp.tsx,354,במערכת אמיתית תתחבר עם Name משתמש וסיסמה
+src/StudentApp.tsx,396,"יש לך {unreadNotifications} Messages חדשות. לחץ על הלשונית ""Messages"" לקרא אותן."
+src/StudentApp.tsx,406,יש לך חוב של {Math.abs(currentStudent.balance).toLocaleString()} ₪. אנא פנה למחלקה ליישוב החוב.
+src/StudentApp.tsx,418,"<span className=""sm:hidden"">טיולים</span>"
+src/StudentApp.tsx,430,"<span className=""hidden sm:inline"">טיולים Available</span>"
+src/StudentApp.tsx,477,"<span className=""text-xs md:text-sm"">טיולים</span>"
+src/StudentApp.tsx,501,"<h2 className=""text-lg md:text-xl"">טיולים Available</h2>"
+src/StudentApp.tsx,557,left פחות מיומיים לטיול. Cancel מהיום יחויב במלוא הסכום ({formatPrice(event.price)})
+src/StudentApp.tsx,569,{eventStatus?.isFull ? 'הטיול Full' : 'Register now'}
+src/StudentApp.tsx,578,{!eventStatus?.canCancel ? 'לא ניתן לבטל' : 'Cancel Registration'}
+src/StudentApp.tsx,597,אתה לא רשום לאף Trip כרגע
+src/StudentApp.tsx,631,<span>נרשמת ב-{new Date(registration.registrationDate).toLocaleDateString('en-IL')}</span>
+src/StudentApp.tsx,649,השתתפת בטיול זה
+src/StudentApp.tsx,654,לא השתתפת בטיול זה - חויבת במלוא הסכום
+src/StudentApp.tsx,671,"<h2 className=""text-lg md:text-xl"">Messages ({unreadNotifications} חדשות)</h2>"
+src/StudentApp.tsx,701,"<Badge variant=""secondary"" className=""text-xs"">חדש</Badge>"
+src/StudentApp.tsx,718,"<h2 className=""text-lg md:text-xl"">Balance וחיובים</h2>"
+src/StudentApp.tsx,723,<span>Balance נוכחית</span>
+src/StudentApp.tsx,734,יש לך חוב של {Math.abs(currentStudent.balance).toLocaleString()} ₪.
+src/StudentApp.tsx,735,אנא פנה למחלקת הלימודים הבינלאומיים ליישוב החוב.
+src/StudentApp.tsx,744,יש לך זכות של {currentStudent.balance.toLocaleString()} ₪.
+src/StudentApp.tsx,745,הזכות תנוכה מהטיולים הבאים או שניתן לקבל החזר.
+src/StudentApp.tsx,792,? 'השתתפת'
+src/StudentApp.tsx,793,: 'לא השתתפת'
+src/StudentApp.tsx,794,: 'Trip עתידי'
+src/AppSelector.tsx,40,מצב student
+src/AppSelector.tsx,61,מערכת ניהול טיולים
+src/AppSelector.tsx,76,"<CardTitle className=""text-xl"">אפליקציית המנהל</CardTitle>"
+src/AppSelector.tsx,78,לצוות המחלקה
+src/AppSelector.tsx,83,"ניהול Full של המערכת: Students, Events, Registrations וAttendance"
+src/AppSelector.tsx,87,<span>ניהול Students</span>
+src/AppSelector.tsx,91,<span>יצירת Events</span>
+src/AppSelector.tsx,95,<span>ניהול Registrations</span>
+src/AppSelector.tsx,99,<span>מעקב Attendance</span>
+src/AppSelector.tsx,103,<span>Reports ותשלומים</span>
+src/AppSelector.tsx,111,Enter למערכת ניהול
+src/AppSelector.tsx,124,"<CardTitle className=""text-xl"">אפליקציית הסטודנט</CardTitle>"
+src/AppSelector.tsx,126,לStudents
+src/AppSelector.tsx,131,"רישום לטיולים, מעקב אחר Balance ותזכורות אישיות"
+src/AppSelector.tsx,135,<span>צפייה בטיולים Available</span>
+src/AppSelector.tsx,139,<span>Registration וCancel</span>
+src/AppSelector.tsx,143,<span>מעקב Balance</span>
+src/AppSelector.tsx,147,<span>Messages והתראות</span>
+src/AppSelector.tsx,160,Enter כסטודנט
+src/AppSelector.tsx,169,💡 <strong>הדגמה:</strong> שתי האפליקציות משתמשות באותם נתוני דמו.
+src/AppSelector.tsx,170,במערכת אמיתית הן יתחברו לאותה מסד נתונים ויעבדו בסינכרון Full.
+src/MainApp.tsx,33,"name: 'יוסף כהן',"
+src/MainApp.tsx,40,"name: 'מרים לוי',"
+src/MainApp.tsx,47,"name: 'אחמד עלי',"
+src/MainApp.tsx,57,"title: 'Trip לירושלים',"
+src/MainApp.tsx,58,"description: 'Trip מודרך בעיר העתיקה והכותל המערבי',"
+src/MainApp.tsx,60,"location: 'Jerusalem - עיר עתיקה',"
+src/MainApp.tsx,69,"title: 'סיור במוזיאון הטבע',"
+src/MainApp.tsx,70,"description: 'סיור מודרך במוזיאון הטבע העברי',"
+src/MainApp.tsx,72,"location: 'תל אביב - מוזיאון הטבע',"
+src/MainApp.tsx,220,toast.success(`דוח Attendance נSend ל-${email} עם פרטי ${report.absentStudents?.length || 0} Students שNo-showו`);
+src/MainApp.tsx,232,toast.success(`Message נSendה ל-${absentStudents.length} Students שNo-showו`);
+src/MainApp.tsx,256,"<span className=""hidden sm:inline"">מערכת ניהול טיולים - לימודים בינלאומיים</span>"
+src/MainApp.tsx,257,"<span className=""sm:hidden"">ניהול טיולים</span>"
+src/MainApp.tsx,271,יש {eventsNeedingAttention} טיולים שזקוקים לתשומת לב
+src/MainApp.tsx,274,"טיולים המתחילים בעוד שבועיים או פחות עם פחות מ-15 נרשמים. לחץ על לשונית ""Events"" לפרטים נוספים."
+src/MainApp.tsx,288,"<span className=""sm:hidden"">סטוד'</span>"
+src/MainApp.tsx,300,"<span className=""hidden sm:inline"">Events עתידיים</span>"
+src/MainApp.tsx,313,"<span className=""hidden sm:inline"">זכות (₪)</span>"
+src/MainApp.tsx,314,"<span className=""sm:hidden"">זכות</span>"
+src/MainApp.tsx,326,"<span className=""hidden sm:inline"">חובות (₪)</span>"
+src/MainApp.tsx,327,"<span className=""sm:hidden"">חובות</span>"
+src/MainApp.tsx,385,"<CardTitle className=""text-base md:text-lg"">Select Event לניהול Registrations</CardTitle>"
+src/MainApp.tsx,405,"No Events עתידיים. צור Event חדש בלשונית ""Events""."
+src/MainApp.tsx,429,"<CardTitle className=""text-base md:text-lg"">Select Event לניהול Attendance</CardTitle>"
+src/MainApp.tsx,448,{event.status === 'upcoming' ? 'עתיד' :
+src/MainApp.tsx,449,event.status === 'ongoing' ? 'מתרחש כעת' : 'הסתיים'}
+src/MainApp.tsx,456,"No Events במערכת. צור Event חדש בלשונית ""Events""."
+src/components/StudentManagement.tsx,50,toast.error('Name וEmail הם שדות חובה');
+src/components/StudentManagement.tsx,83,if (confirm(`האם אתה בטוח שברצונך למחוק את ${student.name}?`)) {
+src/components/StudentManagement.tsx,85,toast.success('student נDelete בהצלחה');
+src/components/StudentManagement.tsx,119,toast.success(`Found ${studentsData.length} Students בקובץ`);
+src/components/StudentManagement.tsx,121,toast.error('שגיאה בקריאת הקובץ. אנא ודא שהקובץ תקין');
+src/components/StudentManagement.tsx,142,toast.success(`${addedCount} Students נוספו בהצלחה`);
+src/components/StudentManagement.tsx,158,"<h2 className=""text-lg md:text-xl"">ניהול Students</h2>"
+src/components/StudentManagement.tsx,164,"<span className=""hidden sm:inline"">הוסף student</span>"
+src/components/StudentManagement.tsx,165,"<span className=""sm:hidden"">הוסף</span>"
+src/components/StudentManagement.tsx,171,{editingStudent ? 'עריכת student' : 'הוספת student חדש'}
+src/components/StudentManagement.tsx,217,{editingStudent ? 'עדכן' : 'הוסף'}
+src/components/StudentManagement.tsx,258,תצוגה מקדימה - העלאת Students מ-Excel
+src/components/StudentManagement.tsx,267,<p>עמודה A: Full name</p>
+src/components/StudentManagement.tsx,268,<p>עמודה B: כתובת Email</p>
+src/components/StudentManagement.tsx,269,<p>עמודה C: מספר Phone (אופציונלי)</p>
+src/components/StudentManagement.tsx,270,<p>עמודה D: Balance בשקלים חדשים (אופציונלי)</p>
+src/components/StudentManagement.tsx,318,Confirm והוסף Students
+src/components/StudentManagement.tsx,337,No Students במערכת. הוסף את הסטודנט הראשון.
+src/components/StudentManagement.tsx,382,"<span className=""ml-1 sm:hidden"">מחיקה</span>"
+src/components/EventManagement.tsx,55,"toast.error('Title, Date וLocation הם שדות חובה');"
+src/components/EventManagement.tsx,68,toast.success('פרטי האירוע עודכנו בהצלחה');
+src/components/EventManagement.tsx,71,toast.success('Event נוסף בהצלחה');
+src/components/EventManagement.tsx,104,"if (confirm(`האם אתה בטוח שברצונך למחוק את האירוע ""${event.title}""?`)) {"
+src/components/EventManagement.tsx,106,toast.success('Event נDelete בהצלחה');
+src/components/EventManagement.tsx,113,"return <Badge variant=""default"">עתיד</Badge>;"
+src/components/EventManagement.tsx,115,"return <Badge variant=""secondary"">מתרחש כעת</Badge>;"
+src/components/EventManagement.tsx,117,"return <Badge variant=""outline"">הסתיים</Badge>;"
+src/components/EventManagement.tsx,150,"<h2 className=""text-lg md:text-xl"">ניהול Events וטיולים</h2>"
+src/components/EventManagement.tsx,155,"<span className=""hidden sm:inline"">הוסף Event</span>"
+src/components/EventManagement.tsx,156,"<span className=""sm:hidden"">הוסף</span>"
+src/components/EventManagement.tsx,162,{editingEvent ? 'עריכת Event' : 'הוספת Event חדש'}
+src/components/EventManagement.tsx,172,"placeholder=""הכנס Title Event"""
+src/components/EventManagement.tsx,182,"placeholder=""הכנס Event description"""
+src/components/EventManagement.tsx,187,"<Label htmlFor=""date"">Date וTime</Label>"
+src/components/EventManagement.tsx,202,"placeholder=""הכנס Event location"""
+src/components/EventManagement.tsx,207,"<Label htmlFor=""price"">Price (שקלים חדשים)</Label>"
+src/components/EventManagement.tsx,218,"<Label htmlFor=""maxParticipants"">מספר participants מקסימלי (אופציונלי)</Label>"
+src/components/EventManagement.tsx,227,"placeholder=""ללא הגבלה"""
+src/components/EventManagement.tsx,233,{editingEvent ? 'עדכן' : 'הוסף'}
+src/components/EventManagement.tsx,253,No Events במערכת. הוסף את האירוע הראשון.
+src/components/EventManagement.tsx,277,{statusInfo.isMinimumMet ? 'אושר' : statusInfo.daysUntilEvent <= 14 && statusInfo.daysUntilEvent > 0 ? 'בבדיקה' : 'רגיל'}
+src/components/EventManagement.tsx,300,"<span className=""ml-1 sm:hidden"">ערוך</span>"
+src/components/EventManagement.tsx,330,? `Urgent: left ${statusInfo.daysUntilEvent} days ורק ${statusInfo.confirmedCount} registered (required 15)`
+src/components/EventManagement.tsx,331,: `צריך לבדוק: left ${statusInfo.daysUntilEvent} days ורק ${statusInfo.confirmedCount} registered מתוך 15 הנדרשים`
+src/components/EventManagement.tsx,366,{' '}(מינימום: 15)
+src/components/AttendanceManagement.tsx,111,`אי הגעה לאירוע: ${event.title}`
+src/components/AttendanceManagement.tsx,115,toast.success(`${chargeRecords.length} Students חויבו בהצלחה`);
+src/components/AttendanceManagement.tsx,120,toast.error('נדרש להזין כתובת Email');
+src/components/AttendanceManagement.tsx,155,toast.success('דוח מפורט נSend בהצלחה');
+src/components/AttendanceManagement.tsx,196,toast.error('נדרש להזין Message');
+src/components/AttendanceManagement.tsx,206,toast.info('No Students שNo-showו');
+src/components/AttendanceManagement.tsx,213,toast.success(`Message נSendה ל-${absentStudents.length} Students שNo-showו`);
+src/components/AttendanceManagement.tsx,222,"['Name', 'Email', 'Phone', 'Attendance', 'חיוב (₪)', 'הערות'],"
+src/components/AttendanceManagement.tsx,240,"excelData.push(['סיכום Attendance', '', '', '', '', '']);"
+src/components/AttendanceManagement.tsx,246,"excelData.push(['סה""כ registered:', registeredStudents.length, '', '', '', '']);"
+src/components/AttendanceManagement.tsx,247,"excelData.push(['Arrivedו:', reportData.attendedCount, '', '', '', '']);"
+src/components/AttendanceManagement.tsx,248,"excelData.push(['No-showו:', reportData.absentCount, '', '', '', '']);"
+src/components/AttendanceManagement.tsx,249,"excelData.push(['סה""כ חיובים:', `${formatCurrency(reportData.totalCharges)}`, '', '', '', '']);"
+src/components/AttendanceManagement.tsx,256,"XLSX.utils.book_append_sheet(workbook, worksheet, 'דוח Attendance');"
+src/components/AttendanceManagement.tsx,260,"const filename = `דוח_Attendance_${event.title.replace(/[^\w\s]/gi, '')}_${eventDate}.xlsx`;"
+src/components/AttendanceManagement.tsx,264,toast.success('קובץ Excel Download בהצלחה');
+src/components/AttendanceManagement.tsx,270,Message בנוגע לטיול: ${event.title}
+src/components/AttendanceManagement.tsx,273,מצטערים לציין שלא נרשמה הגעתך לטיול.
+src/components/AttendanceManagement.tsx,275,"בהתאם למדיניות המחלקה, בגין אי הגעה לטיול ללא Cancel מוקדם, חשבונך יחויב בסך של ${formatCurrency(event.price)}."
+src/components/AttendanceManagement.tsx,277,${event.price > 0 ? 'ניתן לפנות למחלקת הלימודים הבינלאומיים בנוגע לערעור על החיוב תוך 7 days מהיום.' : ''}
+src/components/AttendanceManagement.tsx,279,"בברכה,"
+src/components/AttendanceManagement.tsx,280,מחלקת הלימודים הבינלאומיים
+src/components/AttendanceManagement.tsx,281,אוניברסיטת Haifa`;
+src/components/AttendanceManagement.tsx,308,{event.status === 'ongoing' ? 'מתרחש כעת' : event.status}
+src/components/AttendanceManagement.tsx,336,<CardTitle>רשימת participants</CardTitle>
+src/components/AttendanceManagement.tsx,342,No Students רשומים לאירוע זה
+src/components/AttendanceManagement.tsx,386,<span>סיכום Attendance</span>
+src/components/AttendanceManagement.tsx,389,{reportData.absentCount} No-showו
+src/components/AttendanceManagement.tsx,398,"<div className=""text-xs md:text-sm text-muted-foreground"">Arrivedו</div>"
+src/components/AttendanceManagement.tsx,402,"<div className=""text-xs md:text-sm text-muted-foreground"">No-showו</div>"
+src/components/AttendanceManagement.tsx,406,"<div className=""text-xs md:text-sm text-muted-foreground"">סה""כ חיובים</div>"
+src/components/AttendanceManagement.tsx,410,{/* רשימת מי שNo-show */}
+src/components/AttendanceManagement.tsx,414,Students שNo-showו ({reportData.absentStudents.length}):
+src/components/AttendanceManagement.tsx,430,יחויב {record.charge.toLocaleString()} ₪
+src/components/AttendanceManagement.tsx,439,{/* רשימת מי שArrived */}
+src/components/AttendanceManagement.tsx,443,Students שArrivedו ({reportData.attendedStudents.length}):
+src/components/AttendanceManagement.tsx,470,"<span className=""hidden sm:inline"">עבד חיובים ({reportData.totalCharges.toLocaleString()} ₪)</span>"
+src/components/AttendanceManagement.tsx,471,"<span className=""sm:hidden"">חיובים ({reportData.totalCharges.toLocaleString()} ₪)</span>"
+src/components/AttendanceManagement.tsx,478,"<span className=""hidden sm:inline"">Send דוח בEmail</span>"
+src/components/AttendanceManagement.tsx,479,"<span className=""sm:hidden"">Send דוח</span>"
+src/components/AttendanceManagement.tsx,484,"<DialogTitle className=""text-lg"">שליחת דוח Attendance</DialogTitle>"
+src/components/AttendanceManagement.tsx,488,"<Label htmlFor=""reportEmail"">כתובת Email לשליחת הדוח</Label>"
+src/components/AttendanceManagement.tsx,498,הדוח יכלול פרטים מלאים של {reportData.absentCount} Students שNo-showו
+src/components/AttendanceManagement.tsx,504,"<h4 className=""mb-3 font-medium"">תצוגה מקדימה של הדוח:</h4>"
+src/components/AttendanceManagement.tsx,513,<p><strong>סיכום:</strong></p>
+src/components/AttendanceManagement.tsx,514,<p>• Arrivedו: {reportData.attendedCount} Students</p>
+src/components/AttendanceManagement.tsx,515,<p>• No-showו: {reportData.absentCount} Students</p>
+src/components/AttendanceManagement.tsx,516,"<p>• סה""כ חיובים: {reportData.totalCharges.toLocaleString()} ₪</p>"
+src/components/AttendanceManagement.tsx,521,<p><strong>Students שNo-showו:</strong></p>
+src/components/AttendanceManagement.tsx,525,{record.charge > 0 && ` (יחויב ${formatCurrency(record.charge)})`}
+src/components/AttendanceManagement.tsx,533,<p><strong>Students שArrivedו:</strong></p>
+src/components/AttendanceManagement.tsx,546,Send דוח
+src/components/AttendanceManagement.tsx,572,"<span className=""hidden sm:inline"">Message למי שNo-show ({reportData.absentCount})</span>"
+src/components/AttendanceManagement.tsx,578,"<DialogTitle className=""text-lg"">שליחת Message לStudents שNo-showו</DialogTitle>"
+src/components/AttendanceManagement.tsx,583,Message תיSend ל-{reportData.absentCount} Students שNo-showו לטיול
+src/components/RegistrationManagement.tsx,52,הנכם מוזמנים לטיול: ${event.title}
+src/components/RegistrationManagement.tsx,71,⚠️ Message חשובה:
+src/components/RegistrationManagement.tsx,72,- יש לאשר השתתפות עד יומיים לפני הDate
+src/components/RegistrationManagement.tsx,73,- Cancel עד יומיים לפני - Free
+src/components/RegistrationManagement.tsx,74,- Cancel פחות מיומיים לפני או אי הגעה - תחויבו במלוא הסכום
+src/components/RegistrationManagement.tsx,76,אנא אשרו השתתפותכם בהקדם האפשרי.
+src/components/RegistrationManagement.tsx,78,"בברכה,"
+src/components/RegistrationManagement.tsx,79,מחלקת הלימודים הבינלאומיים`;
+src/components/RegistrationManagement.tsx,94,אישר
+src/components/RegistrationManagement.tsx,101,ביטל
+src/components/RegistrationManagement.tsx,132,toast.error('יש לבחור לפחות student אחד');
+src/components/RegistrationManagement.tsx,137,toast.error('יש להזין Invitation message');
+src/components/RegistrationManagement.tsx,145,toast.success(`הזמנות נSendו ל-${selectedStudents.length} Students`);
+src/components/RegistrationManagement.tsx,175,"<span className=""hidden sm:inline"">Send הזמנות</span>"
+src/components/RegistrationManagement.tsx,184,<span>{daysUntilEvent > 0 ? `${daysUntilEvent} days` : 'היום'} עד האירוע</span>
+src/components/RegistrationManagement.tsx,203,{' '}registered (מינימום: 15)
+src/components/RegistrationManagement.tsx,221,? `⚠️ Urgent: left ${daysUntilEvent} days ורק ${confirmedStudents} registered מתוך 15 הנדרשים`
+src/components/RegistrationManagement.tsx,222,: `📋 הטיול בבדיקה: left ${daysUntilEvent} days ו-${confirmedStudents} registered מתוך 15 הנדרשים לConfirm הטיול`
+src/components/RegistrationManagement.tsx,232,⚠️ left פחות מיומיים לאירוע - Cancel מהיום יחויב במלוא הסכום
+src/components/RegistrationManagement.tsx,241,<CardTitle>סטטיסטיקות Registrations</CardTitle>
+src/components/RegistrationManagement.tsx,280,תגובה: {new Date(registrationStatus.responseDate).toLocaleDateString('en-IL')}
+src/components/RegistrationManagement.tsx,365,Send הזמנות ({selectedStudents.length})
