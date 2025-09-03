@@ -26,8 +26,9 @@ jobs:
         with:
           node-version: 20
 
+      # אם אין package-lock.json, npm ci ייכשל — נופלים ל-npm install
       - name: Install dependencies
-        run: npm ci
+        run: npm ci || npm install
 
       - name: Build (auto base by repo name)
         run: |
