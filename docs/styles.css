@@ -1,0 +1,5 @@
+body{font-family:Arial, sans-serif;background:#0b1324;color:#e6eeff;margin:0;padding:20px}
+h1,h3{color:#8ab4ff}
+.card{background:#121c33;padding:16px;border-radius:12px;margin:10px 0}
+.tabs button{margin:4px;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
+.tabs .active{background:#8ab4ff;color:#0b1324;font-weight:bold}
