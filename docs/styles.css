@@ -1,5 +1,27 @@
-body{font-family:Arial, sans-serif;background:#0b1324;color:#e6eeff;margin:0;padding:20px}
-h1,h3{color:#8ab4ff}
-.card{background:#121c33;padding:16px;border-radius:12px;margin:10px 0}
-.tabs button{margin:4px;padding:8px 12px;border-radius:8px;border:none;cursor:pointer}
-.tabs .active{background:#8ab4ff;color:#0b1324;font-weight:bold}
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+}
+header {
+  padding: 1rem;
+  background: #003366;
+  color: white;
+  text-align: center;
+}
+.container {
+  padding: 2rem;
+}
+button {
+  margin: 0.5rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  background: #003366;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background: #0055aa;
+}
